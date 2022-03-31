@@ -514,11 +514,13 @@ footer a.footer-logo {
 .thumb-icons:hover {
     color: blue;
 }
-.media-title {
-    display: flex;
-}
+
+
 .media-title {
     margin-bottom: 20px;
     color: #FFFFFF;
     text-transform: uppercase;
+}
+.footer-links{
+    display: flex;
 }
