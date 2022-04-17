@@ -379,7 +379,7 @@ span{
     align-items: center;
 }
 
-.header{
+.header {
     border-bottom: 1px solid #ececec;
     
 
@@ -585,8 +585,9 @@ footer a.footer-logo {
     fill: #afb1b8;
 }
 
-.clients-logo-icon:hover{
-     fill:var(--accent-text-color);
+.clients-logo-icon:hover ,
+.clients-logo-icon:focus {
+  fill: var(--accent-text-color);
   border: 1px solid var(--accent-text-color);
   border-color: var(--accent-text-color);
 }
@@ -611,7 +612,8 @@ footer a.footer-logo {
   
 
 
-.projects-link.link:hover{
+.projects-link.link:hover,
+.projects-link.link:focus{
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
